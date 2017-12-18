@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  redirect '/window_jackie.html'
+  send_file File.join(settings.public_folder, 'window_jackie.html')
 end
