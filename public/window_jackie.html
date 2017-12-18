@@ -7,12 +7,48 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/edf435d68a.js"></script>
     <style>
       /* Remove the navbar's default margin-bottom and rounded borders */
-      .navbar {
+      .navbar, footer {
         margin-bottom: 0;
         border-radius: 0;
-        background-color: #CCBADC;
+        background-color: #48d1cc !important;
+      }
+
+      footer {
+        font-weight: bolder;
+        font-size: 24px;
+        border-top: 1px black;
+        padding: 10px !important;
+      }
+
+      h3.header, h4.header {
+        font-family: Century Gothic, sans-serif;
+        font-weight: bold;
+      }
+
+      p.info {
+        font-family: 'Advent Pro';
+        color: #6b2390;
+      }
+
+      h4.header {
+        margin-top: 0px;
+        color: #bb44bb;
+      }
+
+      h3.header {
+        margin-bottom: 0px;
+        color: #48d1cc
+      }
+
+      div#contact {
+        background-color: #f3a5f3;
+      }
+
+      h3#contacting {
+        color: #bb44bb !important;
       }
 
       li.active {
@@ -20,7 +56,9 @@
       }
 
       .navbar a {
-        color: black !important;
+        color: #bb44bb !important;
+        float: right;
+        font-weight: bolder;
       }
 
       .carousel-inner h3, .carousel-inner p {
@@ -28,7 +66,7 @@
       }
 
       body {
-        background: white;
+        background: #f5f5f5;
       }
 
       /* Add a gray background color and some padding to the footer */
@@ -54,6 +92,12 @@
       margin-left: auto;
       margin-right: auto;
       margin-bottom: auto;
+    }
+
+    i {
+      margin-left: 10px;
+      margin-right: 10px;
+      color: #bb44bb;
     }
 
     /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -153,26 +197,32 @@
   </div>
 
   <div class="container text-center" id="about">
-    <h3>About WindowJackie</h3><br>
+    <h3 class="header">WindowJackie</h3><br>
     <div class="row">
       <div class="col-sm-6">
-        <h4>The Artist</h4>
-        <p>Lorem ipsum dolor amet portland cloud bread tumblr pinterest squid polaroid crucifix venmo activated charcoal. Af celiac distillery butcher franzen bushwick food truck waistcoat meh master cleanse slow-carb keffiyeh direct trade next level. Prism four loko taiyaki, YOLO poke crucifix intelligentsia forage slow-carb health goth. Whatever selvage biodiesel paleo deep v readymade man braid you probably haven't heard of them sartorial poke. Venmo squid messenger bag, tote bag art party prism roof party XOXO gochujang. Poke waistcoat salvia adaptogen activated charcoal 90's mlkshk put a bird on it PBR.</p>
+        <h4 class="header">The Artist</h4>
+        <p class="info">WindowJackie was started in 2010 by Jackie Harris. Originally a Miami, Florida artist relocated to Orlando, Florida where she is actively painting and creating as often as possible. No project is too big, nor too small. She is always looking for the next challenge and is ready to take on your commission. In addition to painting, Jackie often collaborates with Alexander Kalik (formerly Warehouse Director of Scotty Wonders) on woodworking, metalwork, and handmade furniture.</p>
       </div>
       <div class="col-sm-6">
-        <h4>The Art</h4>
-        <p>Lorem ipsum dolor amet dreamcatcher messenger bag intelligentsia franzen brunch, locavore godard kogi tousled trust fund coloring book four loko twee lyft. Vice everyday carry hella pok pok affogato fixie keffiyeh four loko shabby chic austin farm-to-table pitchfork selvage mixtape. Fingerstache franzen yr, palo santo health goth iceland yuccie gluten-free. Gochujang farm-to-table viral vinyl helvetica hashtag hella plaid green juice leggings pickled humblebrag marfa cray. Salvia pitchfork sartorial small batch tacos, VHS kombucha flannel succulents hexagon. La croix gluten-free yuccie helvetica pok pok pug, swag single-origin coffee activated charcoal fixie affogato offal poke subway tile marfa. Humblebrag pickled farm-to-table godard, letterpress activated charcoal direct trade green juice.</p>
+        <h4 class="header">The Art</h4>
+        <p class="info">Artwork is all original ideas and creations by WindowJackie. Each piece is uniquely painted and created to satisfy each client. No piece will ever be sold if it does not meet WindowJackie standards. Mediums used include acrylic paint, chalk pastel, colored pencil, Conte Crayon, charcoal, graphite, woodworks, fabric, paper, and much more to fit the needs of the project. WindowJackie paintings can be found all across the country - from California to Pennsylvania to Alabama, etc. If you are not satisfied by the final product, it can and will be edited to meet your desire. To order or to discuss any commissions, please email windowjackie@gmail.com. Our goal at WindowJackie is to make sure each client recieves a product that is not only good quality, but meets and exceeds your satisfaction.</p>
       </div>
     </div>
   </div><br>
 
   <div class="container text-center" id="contact">
-    <h3>Contact WindowJacki</h3>
-    <p>email: windowjackie@gmail.com</p>
+    <h3 class="header" id="contacting">Contact WindowJackie</h3>
+    <p class="info">email: windowjackie@gmail.com</p>
   </div>
 
   <footer class="container-fluid text-center">
-    <p>Thank you for visiting WindowJackie!</p>
+    <a href="https://www.instagram.com/windowjackie/?hl=en"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+    <a href="https://www.pinterest.com/windowjackie/"><i class="fa fa-pinterest-square fa-lg" aria-hidden="true"></i></a>
+    <a href="https://www.etsy.com/shop/windowjackie"><i class="fa fa-etsy fa-lg" aria-hidden="true"></i></a>
+    <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+
+
   </footer>
 
   <script type="text/javascript" src="/window_jackie.js"></script>
