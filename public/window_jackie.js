@@ -1,6 +1,7 @@
 
-$(document).ready(function() {
-  $('#myCarousel').carousel({
-    interval: 2500
-  });
+$(document).ready(function(){
+    $(“.carousel-caption”).hide();
+    $(“img[alt=thumb11”).on(“hover”,function(){
+        $(“.carousel-caption”).fadeIn();
+    });
 });

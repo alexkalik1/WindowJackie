@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/edf435d68a.js"></script>
+    <script src="/window_jackie.js"></script>
     <style>
       /* Remove the navbar's default margin-bottom and rounded borders */
       .navbar, footer {
@@ -76,9 +77,8 @@
       }
 
     .carousel-inner img {
-        width: 75%; /* Set width to 100% */
+        height: 500px !important; /* Set width to 100% */
         margin: auto;
-        max-height: 600px;
     }
     #myCarousel {
       background-color: white;
@@ -86,12 +86,16 @@
 
     .carousel-caption {
       background-color: black;
-      opacity: 0.4;
+      opacity: 0;
       max-width: auto;
       max-height: auto;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: auto;
+    }
+
+    .carousel-inner:hover .carousel-caption {
+      opacity: 0.4;
     }
 
     i {
@@ -154,33 +158,36 @@
         <div class="item">
           <img src="dwayne_wade.jpg" alt="Image">
           <div class="carousel-caption">
-            <h3>Dwayne Wade $500</h3>
-            <p>Acrylic on Canvas</p>
-            <p>2015</p>
+            <h3>Dwayne Wade</h3>
+            <p>Acrylic on Canvas, 2015</p>
+            <p>$500</p>
           </div>
         </div>
 
         <div class="item">
           <img src="artist_guy.jpg" alt="Image">
           <div class="carousel-caption">
-            <h3>More Sell $</h3>
-            <p>Lorem ipsum...</p>
+            <h3>El Salvador</h3>
+            <p>Acrylic on Canvas, 2014</p>
+            <p>$350</p>
           </div>
         </div>
 
         <div class="item">
           <img src="fruits.jpg" alt="Image">
           <div class="carousel-caption">
-            <h3>More Sell $</h3>
-            <p>Lorem ipsum...</p>
+            <h3>Sweet Potatoes and Onions</h3>
+            <p>Still life, charcoal and graphyte on paper</p>
+            <p>$200</p>
           </div>
         </div>
 
         <div class="item">
           <img src="canes_shoes.jpg" alt="Image">
           <div class="carousel-caption">
-            <h3>More Sell $</h3>
-            <p>Lorem ipsum...</p>
+            <h3>Miami Hurricanes Shoes</h3>
+            <p>Slip on shoe, made to order</p>
+            <p>$150</p>
           </div>
         </div>
       </div>
@@ -224,8 +231,6 @@
 
 
   </footer>
-
-  <script type="text/javascript" src="/window_jackie.js"></script>
 
   </body>
 </html>
