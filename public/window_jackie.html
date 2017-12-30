@@ -95,7 +95,7 @@
       margin-bottom: auto;
     }
 
-    .carousel-inner:hover .carousel-caption {
+    .carousel-inner:hover .carousel-caption, .carousel-inner:focus .carousel-caption {
       opacity: 0.4;
     }
 
@@ -108,7 +108,7 @@
     /* Hide the carousel text when the screen is less than 600 pixels wide */
     @media (max-width: 600px) {
       .carousel-caption {
-        display: none;
+        opacity: 0.4;
       }
     }
     </style>
